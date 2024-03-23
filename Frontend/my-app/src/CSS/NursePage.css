@@ -1,0 +1,39 @@
+.nurse-page-navigation {
+    text-align: center;
+  }
+  
+  .nurse-page-navigation h2 {
+    font-size: 24px;
+  }
+  
+  .nurse-page-navigation p {
+    margin-bottom: 20px;
+  }
+  
+  .nurse-page-navigation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nurse-page-navigation li {
+    margin-bottom: 40px;
+  }
+  
+  .nurse-page-navigation a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nurse-page-navigation img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .nurse-page-navigation span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
