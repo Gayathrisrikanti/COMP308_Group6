@@ -1,0 +1,88 @@
+/* NursePage.css */
+
+.nurse-page-navigation {
+  max-width: 800px; /* Set a max-width for better readability on large screens */
+  margin: 0 auto; /* Center the container */
+  padding: 2rem; /* Add padding around the content */
+  text-align: left; /* Align text to the left for better readability */
+}
+
+.nurse-page-navigation h2 {
+  font-size: 2rem; /* Increase the size for the page title */
+  color: #000000; /* Use the primary color of your theme */
+  margin-bottom: 1rem;
+}
+
+.nurse-page-navigation p {
+  color: #6c757d; /* Subtle color for text */
+  line-height: 1.6; /* Improve line spacing */
+  margin-bottom: 2rem; /* Add more space below paragraphs */
+}
+
+.nurse-page-navigation h3 {
+  font-size: 1.5rem;
+  color: #000000; /* A slightly darker shade for subheadings */
+  margin-bottom: 1.5rem;
+}
+
+.nurse-page-navigation ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+.nurse-page-navigation li {
+  background: #f8f9fa; /* Light background for each list item */
+  border-radius: 0.5rem; /* Rounded corners */
+  margin-bottom: 1.5rem; /* Add space between list items */
+  padding: 1rem; /* Add padding inside list items */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.nurse-page-navigation a {
+  display: flex; /* Use flexbox for aligning image and text */
+  align-items: center; /* Align items vertically */
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Primary color for text links */
+}
+
+.nurse-page-navigation a:hover {
+  transform: translateY(-5px); /* Slight raise effect on hover */
+}
+
+.nurse-page-navigation img {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem; /* Add right margin to separate image from text */
+}
+
+.nurse-page-navigation span {
+  font-weight: bold;
+  font-size: 1.1rem; /* Slightly larger font size */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .nurse-page-navigation {
+    padding: 1rem;
+  }
+
+  .nurse-page-navigation h2 {
+    font-size: 1.75rem;
+  }
+
+  .nurse-page-navigation h3 {
+    font-size: 1.25rem;
+  }
+
+  .nurse-page-navigation a {
+    flex-direction: column; /* Stack image and text on smaller screens */
+    align-items: flex-start;
+  }
+
+  .nurse-page-navigation img {
+    margin-right: 0;
+    margin-bottom: 0.5rem; /* Add bottom margin for stacked layout */
+  }
+}

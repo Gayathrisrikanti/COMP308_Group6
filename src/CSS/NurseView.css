@@ -1,0 +1,67 @@
+/* ViewVital.css */
+
+.view-vital-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff; /* Bright background for the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* More pronounced shadow for depth */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .view-vital-container h2 {
+    color: #007bff; /* Blue color matching other pages' themes */
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eaeaea; /* A subtle bottom border */
+    padding-bottom: 10px; /* Spacing above the border */
+  }
+  
+  .view-vital-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .view-vital-container li {
+    background: #f9f9f9; /* A slightly off-white background for each list item */
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Lighter shadow for a softer look */
+    border-left: 4px solid #007bff; /* A blue accent on the left border */
+    transition: transform 0.2s ease-in-out; /* Smooth transform on hover */
+  }
+  
+  .view-vital-container li:hover {
+    transform: translateX(10px); /* Slide effect on hover */
+  }
+  
+  .view-vital-container li h3 {
+    color: #0056b3; /* A darker blue for contrast */
+    margin-bottom: 15px;
+  }
+  
+  .view-vital-container li p {
+    color: #333; /* Dark grey for regular text */
+    margin: 5px 0;
+    font-size: 0.95rem; /* Slightly smaller font size for a more refined look */
+  }
+  
+  /* Add responsiveness to the layout */
+  @media (max-width: 768px) {
+    .view-vital-container {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .view-vital-container h2 {
+      font-size: 1.5rem; /* Smaller font size for smaller screens */
+    }
+  
+    .view-vital-container li:hover {
+      transform: none; /* Remove hover effect on smaller screens */
+    }
+  }
+  
